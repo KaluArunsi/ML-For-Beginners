@@ -1,14 +1,21 @@
 <template>
   <div>
     <nav>
-      <router-link class="navlink" to="/">Home</router-link>
+      <router-link
+        class="navlink"
+        to="/"
+      >
+        Home
+      </router-link>
       <label for="locale">locale</label>
       <select v-model="locale">
         <option>en</option>
         <option>fr</option>
         <option>it</option>
         <option>ja</option>
-        <option value="ptbr">pt-br</option>
+        <option value="ptbr">
+          pt-br
+        </option>
         <option>tr</option>
         <option>es</option>
       </select>
